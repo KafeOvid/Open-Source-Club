@@ -8,22 +8,23 @@
 </head>
 <body>
     <header>
-        <img src="/image.png" alt="Open-source Club Logo" class="logo">
+        <img src="image.png" alt="Open-source Club Logo" class="logo">
         <h1>Open-source Club</h1>
         <nav>
             <ul>
                 <li><a href="#introduction">Introduction</a></li>
                 <li><a href="#events">Current Events</a></li>
                 <li><a href="#team">Team</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contribute">Contribute</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <section id="introduction">
         <h2>About the Club</h2>
-        <p>
-            Welcome to the VIT Bhopal University Open Source Club!
-        </p>
+        <p>Welcome to the VIT Bhopal University Open Source Club!</p>
         <p>
             <br>
             <strong>About Us:</strong><br>
@@ -40,32 +41,79 @@
             Shaping industry-leading contributors through skill development, industry connections, and a culture of constant learning.
         </p>
     </section>
+
     <section id="events">
         <h2>Current Events</h2>
         <p>Stay tuned for upcoming events and meetups!</p>
+        <br>
+        <div class="event-card">
+            <h3>Webinar: Introduction to Open Source</h3>
+            <p>Date: July 15, 2024</p>
+            <p>Join us for an insightful webinar on the fundamentals of open-source technologies.</p>
+        </div>
+        <br>
+        <div class="event-card">
+            <h3>Open Source Hackathon</h3>
+            <p>Date: August 5-6, 2024</p>
+            <p>Participate in our annual hackathon and showcase your skills in developing open-source solutions.</p>
+        </div>
     </section>
+
     <section id="team">
         <h2>Meet the Team</h2>
         <div class="team-cards">
             <div class="team-card">
-                <img src="/team-member1.webp" alt="Team Member 1">
+                <img src="team-member1.webp" alt="Team Member 1">
                 <h3>John Doe</h3>
                 <p>Role: Project Lead</p>
-                <p>John is passionate about open-source technologies...</p>
+                <p>John is passionate about open-source technologies and has led multiple successful projects.</p>
             </div>
             <div class="team-card">
-                <img src="/team-member2.webp" alt="Team Member 2">
+                <img src="team-member2.webp" alt="Team Member 2">
                 <h3>Jane Smith</h3>
                 <p>Role: Developer</p>
-                <p>Jane loves contributing to community-driven projects...</p>
+                <p>Jane loves contributing to community-driven projects and exploring new technologies.</p>
             </div>
         </div>
     </section>
-    
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project">
+            <h3>Project Alpha</h3>
+            <p>Project Alpha aims to develop an open-source platform for collaborative coding.</p>
+        </div>
+        <div class="project">
+            <h3>Project Beta</h3>
+            <p>Project Beta focuses on creating tools for data visualization using open-source libraries.</p>
+        </div>
+    </section>
+
     <section id="contribute">
         <h2>Contribute to Open-source</h2>
-        <p>Interested in contributing to open-source projects? Join us!</p>
+        <p>Interested in contributing to open-source projects? <strong>Join us!</strong></p>
+        <br>
+        <p>Whether you are a developer, designer, marketer, or enthusiast, there are various ways to get involved and make a difference in the open-source community.</p>
+        <a href="#contact" class="btn">Get Involved</a>
     </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to learn more about our club? Reach out to us!</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
     <footer>
         <p>&copy; 2024 Open-source Club</p>
     </footer>
