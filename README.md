@@ -1,5 +1,3 @@
-# Open-Source-Club
-
 # Open-source Club Website
 
 This is the official website for the Open-source Club. The site includes information about the club, current events, team members, and how to contribute to open-source projects.
@@ -17,7 +15,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/open-source-club-website.git
+    git clone https://github.com/your-username/open-source-club.git
     ```
 2. Navigate to the project directory:
     ```bash
